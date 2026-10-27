@@ -1,0 +1,16 @@
+# Compiled Java class files
+*.class
+
+# Data folder — contains personal records, don't commit
+data/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store
+.DS_Store
+
+# IDE folders
+.vscode/
+.idea/
+*.iml
