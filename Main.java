@@ -180,8 +180,6 @@ public class Main {
         if (condition.equalsIgnoreCase("DAMAGED") || condition.equalsIgnoreCase("NEEDS_INSPECTION")) {
             System.out.print("Enter damage note (or press Enter to skip): ");
             damageNote = scanner.nextLine().trim();
-        } else {
-            scanner.nextLine(); // consume leftover newline if needed — safe no-op here
         }
 
         if (loanId.isEmpty()) {
